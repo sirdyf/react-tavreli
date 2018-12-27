@@ -1,0 +1,24 @@
+{
+  "name": "Tavreli",
+  "version": "1.0.0",
+  "description": "Tevreli",
+  "private": false,
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": {
+    "name": "Dmitry Fomin",
+    "email": "sir.dyf@gmail.com",
+    "url": "https://github.com/sirdyf"
+  },
+  "homepage": "https://github.com/sirdyf",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sirdyf/react-tavreli"
+  },
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
