@@ -1,0 +1,115 @@
+#
+## Alias OBJ Material File
+# Exported from SketchUp, (c) 2000-2012 Trimble Navigation Limited
+
+newmtl FrontColor
+ka 0.000000 0.000000 0.000000
+kd 1.000000 1.000000 1.000000
+ks 0.330000 0.330000 0.330000
+
+newmtl FrontColorBlack
+ka 0.000000 0.000000 0.000000
+kd 0.300000 0.300000 0.300000
+ks 0.330000 0.330000 0.330000
+
+newmtl secondFigureMaterial
+ka 0.000000 0.000000 0.000000
+kd 0.854902 0.854902 0.854902
+ks 0.330000 0.330000 0.330000
+map_kd ratnik_white.png
+
+newmtl topFigureMaterial
+ka 0.000000 0.000000 0.000000
+kd 0.854902 0.854902 0.854902
+ks 0.330000 0.330000 0.330000
+map_kd ratnik_white.png
+
+newmtl mainFigureMaterial
+ka 0.000000 0.000000 0.000000
+kd 0.854902 0.854902 0.854902
+ks 0.330000 0.330000 0.330000
+map_kd ratnik_white.png
+
+newmtl ratnik_white
+ka 0.000000 0.000000 0.000000
+kd 0.854902 0.854902 0.854902
+ks 0.330000 0.330000 0.330000
+map_kd ratnik_white.png
+
+newmtl ratoborec_white
+ka 0.000000 0.000000 0.000000
+kd 0.854902 0.854902 0.854902
+ks 0.330000 0.330000 0.330000
+map_kd ratoborec_white.png
+
+newmtl vsadnik_white
+ka 0.000000 0.000000 0.000000
+kd 0.854902 0.854902 0.854902
+ks 0.330000 0.330000 0.330000
+map_kd vsadnik_white.png
+
+newmtl luchnik_white
+ka 0.000000 0.000000 0.000000
+kd 0.854902 0.854902 0.854902
+ks 0.330000 0.330000 0.330000
+map_kd luchnik_white.png
+
+newmtl knyaz_white
+ka 0.000000 0.000000 0.000000
+kd 0.854902 0.854902 0.854902
+ks 0.330000 0.330000 0.330000
+map_kd knyaz_white.png
+
+newmtl volhv_white
+ka 0.000000 0.000000 0.000000
+kd 0.854902 0.854902 0.854902
+ks 0.330000 0.330000 0.330000
+map_kd volhv_white.png
+
+newmtl helgi_white
+ka 0.000000 0.000000 0.000000
+kd 0.854902 0.854902 0.854902
+ks 0.330000 0.330000 0.330000
+map_kd helgi_white.png
+
+newmtl ratnik_black
+ka 0.000000 0.000000 0.000000
+kd 0.854902 0.854902 0.854902
+ks 0.330000 0.330000 0.330000
+map_kd ratnik_black.png
+
+newmtl ratoborec_black
+ka 0.000000 0.000000 0.000000
+kd 0.854902 0.854902 0.854902
+ks 0.330000 0.330000 0.330000
+map_kd ratoborec_black.png
+
+newmtl vsadnik_black
+ka 0.000000 0.000000 0.000000
+kd 0.854902 0.854902 0.854902
+ks 0.330000 0.330000 0.330000
+map_kd vsadnik_black.png
+
+newmtl luchnik_black
+ka 0.000000 0.000000 0.000000
+kd 0.854902 0.854902 0.854902
+ks 0.330000 0.330000 0.330000
+map_kd luchnik_black.png
+
+newmtl knyaz_black
+ka 0.000000 0.000000 0.000000
+kd 0.854902 0.854902 0.854902
+ks 0.330000 0.330000 0.330000
+map_kd knyaz_black.png
+
+newmtl volhv_black
+ka 0.000000 0.000000 0.000000
+kd 0.854902 0.854902 0.854902
+ks 0.330000 0.330000 0.330000
+map_kd volhv_black.png
+
+newmtl helgi_black
+ka 0.000000 0.000000 0.000000
+kd 0.854902 0.854902 0.854902
+ks 0.330000 0.330000 0.330000
+map_kd helgi_black.png

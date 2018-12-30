@@ -1,0 +1,200 @@
+.is_no-transition {
+  transition: none !important; }
+
+nobr {
+  white-space: nowrap; }
+
+html {
+  height: 100%; }
+
+body {
+  min-height: 100%;
+  /*background: $color-dark;*/ }
+
+.logo {
+  width: 22.3125em; }
+
+.btn {
+  cursor: pointer; }
+
+@media (min-width: 992px) {
+  .modal-lg {
+    max-width: 1140px; } }
+
+.dashboard {
+  display: none; }
+
+.is_login .intro {
+  display: none; }
+
+.is_login .dashboard {
+  display: block; }
+
+.key-delete-button {
+  cursor: pointer; }
+
+.intro {
+  padding-top: 5em; }
+  .intro__code {
+    width: 18em;
+    margin: 1em auto; }
+  .intro__logo {
+    margin-bottom: 0.5em; }
+
+.dashboard__logo {
+  text-align: center;
+  padding: 1em 0;
+  width: 12.5em; }
+
+.exchange-logo {
+  display: inline-block;
+  width: 1.5em;
+  height: 1.5em;
+  text-align: center;
+  line-height: 1.5;
+  font-size: 0.6em;
+  vertical-align: middle;
+  position: relative;
+  top: -0.2em; }
+  .exchange-logo_poloniex {
+    background: #03292c;
+    color: #229498; }
+    .exchange-logo_poloniex:before {
+      content: 'P'; }
+  .exchange-logo_bittrex {
+    background: #310f03;
+    color: #c2b8b3; }
+    .exchange-logo_bittrex:before {
+      content: 'B'; }
+
+.bot-orders {
+  text-align: center;
+  font-size: 1.2em; }
+  .bot-orders__closed {
+    font-size: 2em;
+    font-weight: bold; }
+  .bot-orders__total {
+    font-size: 1.2em;
+    color: #999999; }
+  .bot-orders__title {
+    text-transform: uppercase;
+    font-size: 0.7em;
+    color: #666666; }
+
+.bot-profit {
+  text-align: center;
+  font-size: 1.2em; }
+  .bot-profit__value {
+    font-size: 2em;
+    font-weight: bold; }
+  .bot-profit__percent {
+    font-size: 1.2em;
+    color: #999999; }
+  .bot-profit__title {
+    text-transform: uppercase;
+    font-size: 0.7em;
+    color: #666666; }
+  .bot-profit__float {
+    font-size: 1.2em;
+    font-weight: bold; }
+
+.bot-time {
+  font-weight: normal;
+  color: #999999; }
+
+.bot-settings {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  z-index: 1; }
+  .bot-settings__ico {
+    cursor: pointer; }
+  .bot-settings__nav {
+    position: absolute;
+    top: 0;
+    right: 1.5em;
+    font-size: 0.875em; }
+    .bot-settings__nav .list-group-item {
+      padding: 0.5em 1em;
+      white-space: nowrap;
+      cursor: pointer; }
+      .bot-settings__nav .list-group-item .oi {
+        font-size: 0.8em; }
+
+.bot-card {
+  min-height: 100%; }
+  .bot-card.is_settings .bot-settings__nav {
+    display: block; }
+
+.new-bot-card {
+  border: 1px dashed #aaaaaa;
+  min-height: 100%;
+  cursor: pointer; }
+  .new-bot-card:hover {
+    border-color: #212529; }
+    .new-bot-card:hover .new-bot-card__text {
+      color: #212529; }
+  .new-bot-card .card-body {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+  .new-bot-card__text {
+    width: 100%;
+    -ms-flex-item-align: center;
+        align-self: center;
+    text-align: center;
+    color: #aaaaaa; }
+
+.card-title {
+  cursor: pointer; }
+
+.bot-settings__nav {
+  display: none; }
+
+.bot-add-form {
+  display: none; }
+  body.is_new .bot-add-form {
+    display: block; }
+  .bot-add-form .oi-question-mark {
+    font-size: 0.5em;
+    border: 1px solid #666;
+    border-radius: 50%;
+    width: 2em;
+    height: 2em;
+    text-align: center;
+    line-height: 1.5;
+    cursor: pointer;
+    vertical-align: middle;
+    top: -1px; }
+
+.orders-preview {
+  display: none; }
+  body.is_new .orders-preview {
+    display: block; }
+
+body.is_new .bot-list {
+  display: none; }
+
+.add-key-form__currency {
+  display: none; }
+
+.add-key-form__add {
+  display: none; }
+
+.add-key-form__success {
+  display: none; }
+
+.add-key-form__failed {
+  display: none; }
+
+.add-key-form.is_exchange .add-key-form__currency {
+  display: block; }
+
+.add-key-form.is_confirmed .add-key-form__add {
+  display: block; }
+
+.add-key-form.is_confirmed .add-key-form__success {
+  display: block; }
+
+.add-key-form.is_failed .add-key-form__failed {
+  display: block; }
